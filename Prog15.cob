@@ -1,7 +1,7 @@
       ******************************************************************
       * Author:
       * Date:
-      * Purpose: OPERADORES DE COMPARAÇÃO LÓGICA
+      * Purpose: OPERADORES DE COMPARAÃ‡ÃƒO LÃ“GICA
       * Tectonics: cobc
       ******************************************************************
        IDENTIFICATION DIVISION.
