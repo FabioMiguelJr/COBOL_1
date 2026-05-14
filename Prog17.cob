@@ -13,6 +13,7 @@
            PERFORM INFORME-NOME.
            PERFORM INFORME-VALOR.
            PERFORM TESTE-LOGICO.
+           PERFORM PROGRAM-DONE.
              
            STOP RUN.
 
@@ -30,4 +31,7 @@
        TESTE-LOGICO.
            IF NOME = "ANA" OR VALOR01 = 30
                DISPLAY "A CONDICAO EH VERDADEIRA".
+       
+       PROGRAM-DONE.
+           DISPLAY "PROGRAMA CONCLUIDO".
 
