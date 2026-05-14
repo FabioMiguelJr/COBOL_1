@@ -3,8 +3,31 @@
        ENVIRONMENT DIVISION.
        DATA DIVISION.
        WORKING-STORAGE SECTION.
+
+       01 VALOR01 PIC 9(3).
+       01 NOME PIC X(30).
+
        PROCEDURE DIVISION.
 
-       
+           PERFORM PROGRAM-BEGIN.    
+           PERFORM INFORME-NOME.
+           PERFORM INFORME-VALOR.
+           PERFORM TESTE-LOGICO.
              
-             STOP RUN.
+           STOP RUN.
+
+       PROGRAM-BEGIN.
+           DISPLAY "--- USO DO OR ---".
+
+       INFORME-NOME.
+           DISPLAY "INFORMA UM NOME: "
+           ACCEPT NOME.
+       
+       INFORME-VALOR.
+           DISPLAY "INFORME UM VALOR: "
+           ACCEPT  VALOR01.
+
+       TESTE-LOGICO.
+           IF NOME = "ANA" OR VALOR01 = 30
+               DISPLAY "A CONDICAO EH VERDADEIRA".
+
